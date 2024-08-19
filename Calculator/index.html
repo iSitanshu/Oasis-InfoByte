@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button class="btn" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="deleteLast()">⌫</button>
+            <button class="btn" onclick="appendSymbol('%')">%</button>
+            <button class="btn operator" onclick="appendSymbol('/')">÷</button>
+
+            <button class="btn" onclick="appendSymbol('7')">7</button>
+            <button class="btn" onclick="appendSymbol('8')">8</button>
+            <button class="btn" onclick="appendSymbol('9')">9</button>
+            <button class="btn operator" onclick="appendSymbol('*')">×</button>
+
+            <button class="btn" onclick="appendSymbol('4')">4</button>
+            <button class="btn" onclick="appendSymbol('5')">5</button>
+            <button class="btn" onclick="appendSymbol('6')">6</button>
+            <button class="btn operator" onclick="appendSymbol('-')">−</button>
+
+            <button class="btn" onclick="appendSymbol('1')">1</button>
+            <button class="btn" onclick="appendSymbol('2')">2</button>
+            <button class="btn" onclick="appendSymbol('3')">3</button>
+            <button class="btn operator" onclick="appendSymbol('+')">+</button>
+
+            <button class="btn" onclick="appendSymbol('0')">0</button>
+            <button class="btn" onclick="appendSymbol('.')">.</button>
+            <button class="btn equal" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

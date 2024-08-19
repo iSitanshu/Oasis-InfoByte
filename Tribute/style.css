@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.header-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #000;
+}
+
+.header-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin: 10px 0 30px;
+    font-weight: 400;
+}
+
+.play-button img {
+    width: 40%;
+    height: 40%;
+}
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.quote-section .quote {
+    font-size: 1.5em;
+    font-weight: 600;
+    max-width: 50%;
+}
+
+.jobs-image {
+    max-width: 45%;
+    height: auto;
+}
+
+.biography-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.biography-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.biography-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+footer span {
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
